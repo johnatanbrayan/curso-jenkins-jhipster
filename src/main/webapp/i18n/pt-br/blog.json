@@ -1,0 +1,26 @@
+{
+  "cursoJenkinsJhipsterApp": {
+    "blog": {
+      "home": {
+        "title": "Blogs",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Blog",
+        "createOrEditLabel": "Criar ou editar Blog",
+        "notFound": "Nenhum Blog encontrado"
+      },
+      "created": "Um novo Blog foi criado com o identificador {{ param }}",
+      "updated": "Um Blog foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Blog foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Blog {{ id }}?"
+      },
+      "detail": {
+        "title": "Blog"
+      },
+      "id": "ID",
+      "name": "Name",
+      "handle": "Handle",
+      "user": "User"
+    }
+  }
+}
