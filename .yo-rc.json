@@ -44,6 +44,9 @@
     "pages": [],
     "creationTimestamp": 1619731234017,
     "jwtSecretKey": "Mzk2ZTIwOWNjYWJkMmZiZGU5MmViNGE2ZWFlNjE2ZTRmMDU5NjRhNWRjNzkzMTE1YWMzMGNiYjI4YTM3YWEwYTMyMTZiZmVkYWJkNTM5NjAyNjRkN2E1ZDdlYzRmZDRlNzM0YWM5ZWQ3ZmE1ZGUyZTQ1ZDgyOTYyMTk1OTMwMWQ=",
-    "lastLiquibaseTimestamp": 1619731414000
+    "lastLiquibaseTimestamp": 1619731414000,
+    "herokuAppName": "curso-jenkins-jhipster",
+    "herokuDeployType": "git",
+    "herokuJavaVersion": "11"
   }
 }
