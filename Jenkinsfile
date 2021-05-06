@@ -41,13 +41,13 @@ node {
         }
 
         stage('deploy') {
-            if(scm.branches[0].name ==~ /(\*\/develop/) {
-                echo 'Branch Developer'
-                sh "cp ./target/*.jar /opt/jh/johnatan-dev/johnatan-dev.jar"
+            if(scm.branches[0].name ==~ /(\*\/develop)/) {
+                echo 'Branch developer'
+                sh "cp ./target/*.jar /opt/jh/johnatan-dev/app.jar"
                 sh "sudo systemctl restart johnatan-dev"
             } else {
-                echo 'Branch Master'
-                sh "cp ./target/*.jar /opt/jh/johnatan-prod/johnatan-prod.jar"
+                echo 'Branch master'
+                sh "cp ./target/*.jar /opt/jh/johnatan-prod/app.jar"
                 sh "sudo systemctl restart johnatan-prod"
             }
         }
