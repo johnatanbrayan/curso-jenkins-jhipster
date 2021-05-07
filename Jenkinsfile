@@ -19,7 +19,7 @@ node {
         }
 
         stage('install tools') {
-            sh "./mvnw -ntp com.github.eirslett:frontend-maven-plugin:install-node-and-npm -DnodeVersion=v14.16.0 -DnpmVersion=7.8.0"
+            sh "./mvnw -ntp com.github.eirslett:frontend-maven-plugin:install-node-and-npm -DnodeVersion=v14.16.1 -DnpmVersion=6.14.12"
         }
 
         stage('npm install') {
